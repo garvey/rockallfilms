@@ -1,9 +1,13 @@
+@-ms-viewport {
+  width: device-width;
+}
+
 html {
   background-color: #2b2827;
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hero {
@@ -19,7 +23,7 @@ body {
   h1:after {
     content: '';
     border-right: 5px solid #fff;
-    padding-left: 40px;
+    padding-left: 20px;
   }
 }
 
