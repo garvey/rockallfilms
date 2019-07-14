@@ -1,5 +1,13 @@
 html {
-  background: url(../images/background.png) no-repeat center center fixed;
+  background-color: #2b2827;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero {
+  background: url(../images/Mackeral-20.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,11 +15,15 @@ html {
   overflow: hidden;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
+@media only screen and (min-width: 1440px) {
+  h1:after {
+    content: '';
+    border-right: 5px solid #fff;
+    padding-left: 40px;
+  }
 }
 
-.container {
+.columns {
   position: fixed;
   bottom: 40px;
 }
